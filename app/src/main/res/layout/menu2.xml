@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu2Layout"
+    android:layout_width="240dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="start"
+    android:background="#F5F5F5">
+
+    <ImageButton
+        android:id="@+id/MenuCloseBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:background="#8D94BC">
+    </ImageButton>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/MypageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="마이페이지"
+        android:textSize="20dp"
+        android:textStyle="bold">
+    </TextView>
+    <TextView
+        android:id="@+id/RecentFText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="최근 본 가구"
+        android:textSize="20dp"
+        android:textStyle="bold">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom">
+        <TextView
+            android:id="@+id/LogoutText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:text="로그아웃"
+            android:textSize="17dp">
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

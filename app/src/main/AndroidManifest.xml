@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--  카메라 권한  -->
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera.any"/>
+    <uses-feature android:name="android.hardware.camera" android:required="true"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Projectui"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity android:name=".LoginActivity" android:label="Login 액티비티"></activity>
+        <activity android:name=".MenuActivity" android:label="menu 액티비티"></activity>
+        <activity android:name=".MembershipActivity" android:label="Membership 액티비티"></activity>
+        <activity android:name=".MypageActivity" android:label="Mypage 액티비티"></activity>
+        <activity android:name=".UpdateUserActivity" android:label="Update 액티비티"></activity>
+        <activity android:name=".DeleteUserActivity" android:label="Delete 액티비티"></activity>
+        <activity android:name=".RecentFurnitureActivity" android:label="RecentFurniture 액티비티"></activity>
+        <!--   아래 추가된 코드    -->
+        <activity android:name=".RecommendationActivity" android:label="가구 추천"></activity>
+        <activity android:name=".ExistingFurnitureActivity" android:label="기존 가구 옮기기"></activity>
+    </application>
+
+</manifest>

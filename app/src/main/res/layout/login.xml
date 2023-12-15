@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LoginLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/LoginLayout_Title1Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AR을 이용한 "
+        android:gravity="bottom"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#2B3987">
+    </TextView>
+    <TextView
+        android:id="@+id/LoginLayout_Title2Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 딥러닝기반 가구추천 앱"
+        android:gravity="top"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:paddingBottom="100dp"
+        android:textColor="#2B3987">
+    </TextView>
+    <TextView
+        android:id="@+id/LoginLayout_LoginText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그인"
+        android:paddingLeft="50dp"
+        android:textColor="#97252F65">
+    </TextView>
+
+    <EditText
+        android:id="@+id/LoginLayout_LoginEdit"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <TextView
+        android:id="@+id/LoginLayout_PWText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="비밀번호"
+        android:paddingLeft="50dp"
+        android:textColor="#97252F65">
+    </TextView>
+
+    <EditText
+        android:id="@+id/LoginLayout_PWEdit"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/LoginLayout_Layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="80dp">
+
+        <Button
+            android:id="@+id/LoginLayout_Layout_ReturnBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="취소"
+            android:layout_marginRight="50dp"
+            android:backgroundTint="#DCDCDC"
+            android:textColor="#000000"
+            android:textStyle="bold">
+        </Button>
+        <Button
+            android:id="@+id/LoginLayout_Layout_LoginBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="로그인"
+            android:layout_marginLeft="50dp"
+            android:backgroundTint="#8BA9E4"
+            android:textColor="#C8131D57"
+            android:textStyle="bold">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

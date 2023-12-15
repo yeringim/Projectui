@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MembershipLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회원가입"
+        android:gravity="top"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:paddingBottom="70dp"
+        android:textColor="#2B3987">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="아이디 (필수)"
+        android:textStyle="bold"
+        android:paddingLeft="50dp"
+        android:textColor="#97252F65">
+    </TextView>
+    <LinearLayout
+        android:id="@+id/MembershipLayout_IDLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/MembershipLayout_IDLayout_IDEdit"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:hint="6자 이내 작성">
+        </EditText>
+        <Button
+            android:id="@+id/MembershipLayout_IDLayout_IDCheckBtn"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="중복확인"
+            android:backgroundTint="#8BA9E4"
+            android:textColor="#C8131D57"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="비밀번호 (필수)"
+        android:textStyle="bold"
+        android:paddingLeft="50dp"
+        android:textColor="#97252F65">
+    </TextView>
+    <EditText
+        android:id="@+id/MembershipLayout_PWEdit"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:hint="10자 이내 작성">
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="비밀번호 재입력 (필수)"
+        android:textStyle="bold"
+        android:paddingLeft="50dp"
+        android:textColor="#97252F65">
+    </TextView>
+    <EditText
+        android:id="@+id/MembershipLayout_RePWEdit"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp">
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="인테리어 스타일 (선택)"
+        android:paddingLeft="50dp"
+        android:textColor="#97252F65">
+    </TextView>
+    <Spinner
+        android:id="@+id/MembershipLayout_StyleSpinner"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="인테리어 색상 (선택)"
+        android:paddingLeft="50dp"
+        android:textColor="#97252F65">
+    </TextView>
+    <Spinner
+        android:id="@+id/MembershipLayout_ColorSpinner"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"/>
+
+
+    <LinearLayout
+        android:id="@+id/MembershipLayout_Layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="80dp">
+
+        <Button
+            android:id="@+id/MembershipLayout_Layout_ReturnBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="취소"
+            android:layout_marginRight="50dp"
+            android:backgroundTint="#DCDCDC"
+            android:textColor="#000000"
+            android:textStyle="bold">
+        </Button>
+        <Button
+            android:id="@+id/MembershipLayout_Layout_JoinBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="가입"
+            android:layout_marginLeft="50dp"
+            android:backgroundTint="#8BA9E4"
+            android:textColor="#C8131D57"
+            android:textStyle="bold">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

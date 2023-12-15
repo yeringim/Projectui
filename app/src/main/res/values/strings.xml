@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Projectui</string>
+
+    <string-array name="StyleArray">
+        <item>선택안함</item>
+        <item>모던</item>
+        <item>앤틱</item>
+        <item>내추럴</item>
+        <item>로맨틱</item>
+    </string-array>
+
+    <string-array name="ColorArray">
+        <item>선택안함</item>
+        <item>빨간색</item>
+        <item>노란색</item>
+        <item>초록색</item>
+        <item>파란색</item>
+        <item>보라색</item>
+        <item>분홍색</item>
+        <item>검정색</item>
+        <item>흰색</item>
+    </string-array>
+</resources>

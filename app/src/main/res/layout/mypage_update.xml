@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회원 정보 수정"
+        android:gravity="top"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:paddingBottom="70dp"
+        android:textColor="#2B3987">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="아이디 (필수)"
+        android:textStyle="bold"
+        android:paddingLeft="50dp"
+        android:textColor="#97252F65">
+    </TextView>
+    <EditText
+        android:id="@+id/Mypage_UpdateUser_IDEdit"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:hint="(DB에 있는 아이디 보여주기)">
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="비밀번호 (필수)"
+        android:textStyle="bold"
+        android:paddingLeft="50dp"
+        android:textColor="#97252F65">
+    </TextView>
+    <EditText
+        android:id="@+id/Mypage_UpdateUser_PWEdit"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:hint="10자 이내 작성">
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="비밀번호 재입력 (필수)"
+        android:textStyle="bold"
+        android:paddingLeft="50dp"
+        android:textColor="#97252F65">
+    </TextView>
+    <EditText
+        android:id="@+id/Mypage_UpdateUser_RePWEdit"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp">
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="인테리어 스타일 (선택)"
+        android:paddingLeft="50dp"
+        android:textColor="#97252F65">
+    </TextView>
+    <Spinner
+        android:id="@+id/Mypage_UpdateUser_StyleSpinner"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="인테리어 색상 (선택)"
+        android:paddingLeft="50dp"
+        android:textColor="#97252F65">
+    </TextView>
+    <Spinner
+        android:id="@+id/Mypage_UpdateUser_ColorSpinner"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"/>
+
+
+    <LinearLayout
+        android:id="@+id/Mypage_UpdateUser_Layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="80dp">
+
+        <Button
+            android:id="@+id/Mypage_UpdateUser_ReturnBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="취소"
+            android:layout_marginRight="50dp"
+            android:backgroundTint="#DCDCDC"
+            android:textColor="#000000"
+            android:textStyle="bold">
+        </Button>
+        <Button
+            android:id="@+id/Mypage_UpdateUser_UpdateBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="정보수정"
+            android:layout_marginLeft="50dp"
+            android:backgroundTint="#8BA9E4"
+            android:textColor="#C8131D57"
+            android:textStyle="bold">
+        </Button>
+    </LinearLayout>
+</LinearLayout>

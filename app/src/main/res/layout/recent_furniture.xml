@@ -1,0 +1,130 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="최근 본 가구"
+            android:gravity="top"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:paddingBottom="50dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#2B3987">
+        </TextView>
+
+        <TableLayout
+            android:stretchColumns="*"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+            <TableRow>
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:src="@mipmap/ic_launcher"/>
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_span="5"
+                    android:text="A 가구 이름"
+                    android:textSize="20dp" />
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:src="@mipmap/ic_launcher"/>
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_span="5"
+                    android:text="B 가구 이름"
+                    android:textSize="20dp" />
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:src="@mipmap/ic_launcher"/>
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_span="5"
+                    android:text="C 가구 이름"
+                    android:textSize="20dp" />
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:src="@mipmap/ic_launcher"/>
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_span="5"
+                    android:text="D 가구 이름"
+                    android:textSize="20dp" />
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:src="@mipmap/ic_launcher"/>
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_span="5"
+                    android:text="E 가구 이름"
+                    android:textSize="20dp" />
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:src="@mipmap/ic_launcher"/>
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_span="5"
+                    android:text="F 가구 이름"
+                    android:textSize="20dp" />
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:src="@mipmap/ic_launcher"/>
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_span="5"
+                    android:text="G 가구 이름"
+                    android:textSize="20dp" />
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:src="@mipmap/ic_launcher"/>
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_span="5"
+                    android:text="H 가구 이름"
+                    android:textSize="20dp" />
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:src="@mipmap/ic_launcher"/>
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_span="5"
+                    android:text="I 가구 이름"
+                    android:textSize="20dp" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

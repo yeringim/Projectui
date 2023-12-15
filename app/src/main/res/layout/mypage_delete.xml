@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회원 탈퇴"
+        android:gravity="top"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:paddingBottom="70dp"
+        android:textColor="#D2691E">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.   탈퇴 후 회원님의 계정으로 재가입\n      할 수 없습니다."
+        android:textSize="20dp"
+        android:textColor="#D2691E"
+        android:paddingBottom="20dp">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.   회원님의 모든 서비스 이용기록이\n      삭제되며,   삭제된 데이터는 복구\n      되지 않습니다."
+        android:textSize="20dp"
+        android:textColor="#D2691E"
+        android:paddingBottom="20dp">
+    </TextView>
+
+    <CheckBox
+        android:id="@+id/Mypage_DeleteUser_Check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="위의 내용을 확인하였습니다."
+        android:textSize="15dp">
+    </CheckBox>
+
+    <LinearLayout
+        android:id="@+id/Mypage_DeleteUser_Layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="50dp">
+
+        <Button
+            android:id="@+id/Mypage_DeleteUser_ReturnBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="취소"
+            android:layout_marginRight="50dp"
+            android:backgroundTint="#DCDCDC"
+            android:textColor="#000000"
+            android:textStyle="bold">
+        </Button>
+        <Button
+            android:id="@+id/Mypage_DeleteUser_DeleteBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="탈퇴"
+            android:layout_marginLeft="50dp"
+            android:backgroundTint="#FFDEAD"
+            android:textColor="#D2691E"
+            android:textStyle="bold">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
