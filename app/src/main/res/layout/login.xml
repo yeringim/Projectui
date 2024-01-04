@@ -30,7 +30,7 @@
         android:id="@+id/LoginLayout_LoginText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="로그인"
+        android:text="아이디"
         android:paddingLeft="50dp"
         android:textColor="#97252F65">
     </TextView>
@@ -53,7 +53,8 @@
     <EditText
         android:id="@+id/LoginLayout_PWEdit"
         android:layout_width="320dp"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:inputType="textPassword">
     </EditText>
 
     <LinearLayout

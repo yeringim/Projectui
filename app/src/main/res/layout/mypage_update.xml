@@ -45,7 +45,8 @@
         android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:layout_marginRight="50dp"
-        android:hint="10자 이내 작성">
+        android:hint="10자 이내 작성"
+        android:inputType="textPassword">
     </EditText>
 
     <TextView
@@ -61,7 +62,8 @@
         android:id="@+id/Mypage_UpdateUser_RePWEdit"
         android:layout_width="220dp"
         android:layout_height="wrap_content"
-        android:layout_marginRight="50dp">
+        android:layout_marginRight="50dp"
+        android:inputType="textPassword">
     </EditText>
 
     <TextView
